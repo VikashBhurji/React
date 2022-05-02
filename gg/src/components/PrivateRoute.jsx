@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import {Routes} from "react-router-dom";
-import { LoginContext } from "./context/loginContext";
+import { LoginContext } from "../context/loginContext";
 
 export const protectedRoute = () => {
   const { isAuth } = useContext(LoginContext);
